@@ -1,0 +1,164 @@
+// let condicao1 = true;
+
+// if (condicao1){
+//     console.log("Entrei no if 1!");
+// }
+
+
+// let condicao2 = false;
+
+// if (condicao2){
+//     console.log("Entrei no if 2!");
+// }
+
+
+
+
+
+// let condicao = false
+
+// if (condicao){
+//     console.log("entrei no if!")
+// } else {
+//     console.log("entrei no else!")
+// }
+
+
+
+
+
+
+// let condicao1 = false
+// let condicao2 = true
+
+// if (condicao1){
+//     console.log("entrei no if 1")
+// } else {
+//     if (condicao2) {
+//         console.log("Entrei no if 2!")
+//     }
+// }
+
+
+
+
+// let condicao1 = false
+// let condicao2 = false
+// if (condicao1){
+//     console.log("Entrei no if 1!")
+// } else if (condicao2) {
+//     console.log("Entrei no if 2!")
+// } else {
+//     console.log("Entrei no else!")
+// }
+
+
+
+
+// let paisDeOrigem
+// if (paisDeOrigem === "Brasil"){
+//     console.log("brasileiro")
+// } else if (paisDeOrigem === "EUA"){
+//     console.log("norte americano")
+// } else if (paisDeOrigem === "Inglaterra"){
+//     console.log("inglês")
+// } else if (paisDeOrigem === "França"){
+//     console.log("francês")
+// } else if (paisDeOrigem === "Italia"){
+//     console.log("italiano")
+// } else if (paisDeOrigem === "Canadá"){
+//     console.log("canadense")
+// } else {
+//     console.log("nacionalidade não encontrada")
+// }
+
+
+
+
+// let paisDeOrigem
+// switch (paisDeOrigem){
+//     case "Brasil":
+//         console.log("brasileiro")
+//         break
+//     case "EUA":
+//         console.log("norte americano")
+//         break
+//     case "Inglaterra":
+//         console.log("Inglês")
+//         break
+//     default:
+//         console.log("nacionalidade não encontrada")
+//         break        
+// }
+
+
+//EXERCICIO
+
+
+//1
+
+// function comparaDoisNumeros(a,b){
+//     if(a === b){
+//         return "Sucesso";
+//     }
+// }
+
+// console.log(comparaDoisNumeros(2,2))
+
+
+//2
+
+// function comparaNumeros(a,b){
+//     if (a === b){
+//         return "iguais";
+//     } 
+//     else {
+//         return "diferentes"
+//     }
+// }
+
+// console.log(comparaNumeros(
+//     Number(prompt("Digite um numero")),  
+//     Number(prompt("Digite outro numero"))
+// ))
+
+
+//3
+
+
+// function comparaNumeros(a,b){
+//      if (a >= b){
+//            return "maior";           
+//        } 
+//         else if (a < b){        
+//              return "menor"
+//        } 
+//         else {
+//         return "igual"
+//        }
+//  }
+
+
+//  console.log(comparaNumeros(
+//          Number(prompt("Digite um numero")),  
+//          Number(prompt("Digite outro numero"))
+//      ))
+
+
+//4
+
+let pokemon = prompt("escolha um dos pokemons iniciais")
+ switch (pokemon){
+     case "Bulbasauro":
+         console.log("Planta e Veneno")
+        break
+     case "Charmander":
+         console.log("Fogo")
+         break
+     case "Squirtle":
+         console.log("Água")
+         break
+     default:
+         console.log("Pokemon não reconhecido")
+         break   
+ }
